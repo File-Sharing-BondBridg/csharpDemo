@@ -58,10 +58,10 @@ namespace EncryptionService.Controllers
     [Route("")]
     public class LoaderVerificationController : ControllerBase
     {
-        [HttpGet("loader")]
-        public IActionResult Health()
+        [HttpGet("loaderio-aef4d5b667c97a81c1d5a5bb956aa183")]
+        public IActionResult LoaderVerification()
         {
-            return Ok(new { status = "Healthy" });
+            return Ok("loaderio-aef4d5b667c97a81c1d5a5bb956aa183");
         }
     }
 }
